@@ -1,11 +1,9 @@
-# react-native-staciar-project
+# 별의별책
 아이가 주인공이 되어 AI와 함께 이야기를 만들어가는 AI 기반 대화형 동화책 제작 플랫폼
 
 # DEMO
-https://youtu.be/PFLYF2wStMs  
-https://hyorim-jo.github.io/react-native-staciar-project/prototyping/  
-
-
+[데모 영상](https://youtu.be/PFLYF2wStMs)  
+[프로토타입](https://hyorim-jo.github.io/react-native-staciar-project/prototyping/)  
 
 ![Untitled_pages-to-jpg-0001](https://github.com/user-attachments/assets/b4e75b12-99c3-4944-a9b6-ed89f1176883)
 ![Untitled_pages-to-jpg-0002](https://github.com/user-attachments/assets/4e831ef0-38dc-4d64-867b-4f0ed0c4b98e)
