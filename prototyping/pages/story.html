@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.7/lib/p5.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.7/lib/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <meta charset="utf-8" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css" />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js"></script>
+
+  <style>
+    #canvas-container {
+      width: 402px;
+      height: 874px;
+      overflow-y: auto;
+      position: relative;
+      background: rgba(255, 249, 243, 1);
+    }
+
+    #canvas-container::-webkit-scrollbar {
+      display: none;
+    }
+
+    #lottie-container {
+      width: 402px;
+      height: 874px;
+    }
+
+    #title-text {
+      position: absolute;
+      top: 131px;
+      left: 36px;
+      text-align: left;
+      font-family: 'Pretendard Variable';
+      font-weight: 700;
+      font-size: 32px;
+      color: rgba(51, 51, 51, 1);
+      transform: translateY(-50%);
+      z-index: 10;
+    }
+
+    #notion-text {
+      position: absolute;
+      top: 202px;
+      left: 36px;
+      text-align: left;
+      font-family: 'Pretendard Variable';
+      font-weight: 500;
+      font-size: 14px;
+      color: rgba(244, 143, 23, 1);
+      transform: translateY(-50%);
+      z-index: 10;
+    }
+
+    #small-text {
+      position: absolute;
+      top: 610px;
+      left: 103px; 
+      text-align: center;
+      font-family: 'Pretendard Variable';
+      font-weight: 300;
+      font-size: 16px;
+      color: rgba(153, 153, 153, 1);
+      z-index: 10;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="story-section">
+    <div id="canvas-container"></div>
+  </div>
+
+  <div id="speaking-section" style="display:none;">
+    <p id="lottie-container"></p>
+    <div id="title-text">무슨 일이<br>일어난 걸까요?</div>
+    <p id="notion-text">화면을 닫으면 이야기가 사라질 수 있어요.</p>
+    <p id="small-text">자유롭게 대답해보세요!<br>멋진 이야기를 만드는 중이에요!</p>
+  </div>
+
+  <script>
+    window.stories = [];
+    window.speechRecognition = null;
+    window.userData = { name: localStorage.getItem('userName') || '주인공' };
+  </script>
+  <script src="../story/story.js"></script>
+  <script src="../story/speaking.js"></script>
+</body>
+
+</html>

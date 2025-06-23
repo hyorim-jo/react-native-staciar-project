@@ -1,0 +1,27 @@
+{
+  "mood": [
+    { "label": "용감한", "emoji": "👑" },
+    { "label": "즐거운", "emoji": "💃" },
+    { "label": "신비로운", "emoji": "💍" },
+    { "label": "감동적인", "emoji": "💧" },
+    { "label": "행복한", "emoji": "🍀" },
+    { "label": "도전적인", "emoji": "🏃" },
+    { "label": "비밀스러운", "emoji": "🪄" },
+    { "label": "웃긴", "emoji": "💛" },
+    { "label": "뿌듯한", "emoji": "🤘" }
+  ],
+  "character": [
+    { "label": "소방관", "emoji": "👩‍🚒" },
+    { "label": "마법사", "emoji": "🧙" },
+    { "label": "프로그래머", "emoji": "💻" },
+    { "label": "회사원", "emoji": "👨‍💼" },
+    { "label": "로봇", "emoji": "🌑" },
+    { "label": "공주님", "emoji": "👸" },
+    { "label": "왕자님", "emoji": "🤴" },
+    { "label": "천사", "emoji": "🪶" },
+    { "label": "유튜버", "emoji": "🤘" },
+    { "label": "우주 비행사", "emoji": "🚀" },
+    { "label": "선생님", "emoji": "🏫" },
+    { "label": "인어", "emoji": "🐟" }
+  ]
+}
